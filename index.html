@@ -4,13 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Giphy Party!</title>
+  <link rel="stylesheet" href="style.CSS">
 </head>
 
 <body>
+  <h1>GIPHY PARTY</h1>
+  <form id="searchForm" action="">
+    <input class="formPadding" type="text" placeholder="Enter a search term" name="query">
 
-<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-<script src="https://unpkg.com/axios/dist/axios.js"></script>
-<script src="app.js"></script>
+    <input class="formPadding" type="submit" id="submit" value="Search Giphy!">
+    <input class="formPadding" type="button" id="remove" value="Remove Images">
+  </form>
+
+  <div id="gifs"></div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>

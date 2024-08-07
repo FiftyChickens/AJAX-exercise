@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(32, 32, 32);
+}
+
+form {
+    width: 400px;
+    /* Define a fixed width */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h1 {
+    width: 250px;
+    /* Define a fixed width */
+    margin: 0 auto;
+    padding: 0 20px 10px 20px;
+
+
+    color: white;
+}
+
+#remove {
+    background-color: rgb(255, 100, 11);
+}
+
+#submit {
+    background-color: grey;
+}
+
+.formPadding {
+    padding: 4px;
+}
+
+#gifs {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
